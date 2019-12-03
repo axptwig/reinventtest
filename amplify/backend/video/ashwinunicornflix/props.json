@@ -1,0 +1,26 @@
+{
+    "shared": {
+        "resourceName": "ashwinunicornflix",
+        "bucketInput": "ashwinunicornflix-reinvent-input-jbz3f00p",
+        "bucketOutput": "ashwinunicornflix-reinvent-output-jbz3f00p",
+        "bucket": "amplify-ashwinunicornflix-reinvent-95738-deployment"
+    },
+    "template": {
+        "name": "Amplify_Video_Ott_Hls_Ts_Avc_Aac.json",
+        "arn": "arn:aws:mediaconvert:us-east-2:585391604912:jobTemplates/Amplify_Video_Ott_Hls_Ts_Avc_Aac"
+    },
+    "contentDeliveryNetwork": {
+        "enableDistribution": false
+    },
+    "cms": {
+        "editAPI": true
+    },
+    "parameters": {
+        "authRoleName": {
+            "Ref": "AuthRoleName"
+        },
+        "unauthRoleName": {
+            "Ref": "UnauthRoleName"
+        }
+    }
+}

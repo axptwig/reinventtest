@@ -1,0 +1,19 @@
+{
+    "reinvent": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-ashwinunicornflix-reinvent-95738-authRole",
+            "UnauthRoleArn": "arn:aws:iam::585391604912:role/amplify-ashwinunicornflix-reinvent-95738-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::585391604912:role/amplify-ashwinunicornflix-reinvent-95738-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-ashwinunicornflix-reinvent-95738-deployment",
+            "UnauthRoleName": "amplify-ashwinunicornflix-reinvent-95738-unauthRole",
+            "StackName": "amplify-ashwinunicornflix-reinvent-95738",
+            "StackId": "arn:aws:cloudformation:us-east-2:585391604912:stack/amplify-ashwinunicornflix-reinvent-95738/66388660-15f6-11ea-968b-06ecdd631b8a"
+        },
+        "categories": {
+            "auth": {
+                "ashwinunicornflix600f75be": {}
+            }
+        }
+    }
+}
